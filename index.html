@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Secret Agent Supply Inc.</title>
-    <link href="/Users/gregprendergast/Documents/projects/SecretAgentSupply/resources/css/reset.css" type="text/css" rel="stylesheet">
-    <link href="/Users/gregprendergast/Documents/projects/SecretAgentSupply/resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
 
@@ -18,9 +18,11 @@
 
     <!-- main image -->
     <div class="main">
-      <div id="news">
-        <h4>NEW ARRIVAL</h4>
-        <h1>SPORT BIKES AND MOTORCYCLES</h1>
+      <div class="flex-main">
+        <div id="news">
+          <h4>NEW ARRIVAL</h4>
+          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        </div>
       </div>
     </div>
 
@@ -34,6 +36,9 @@
         <li>Classes</li>
         <li>Contact</li>
       </ul>
+      <ul class="nav-mobile">
+        <li>Menu</li>
+      </ul>
     </nav>
 
   <!-- images -->
@@ -45,13 +50,13 @@
           </div>
           <span>Exploding Pen</span>
         </div>
-        <div class="gallery-box">
+        <div class="gallery-box" id="watch">
           <div class="item">
             <img src="/Users/gregprendergast/Documents/projects/SecretAgentSupply/resources/images/watch.png"/>
           </div>
           <span>Cellular Watch</span>
         </div>
-        <div class="gallery-box">
+        <div class="gallery-box" id="glasses">
           <div class="item">
             <img src="/Users/gregprendergast/Documents/projects/SecretAgentSupply/resources/images/glasses.png"/>
           </div>
@@ -75,7 +80,9 @@
     </div>
   <!-- copyright -->
     <div class="copyright">
-      <span>Copyright Secret Agent Supply Inc.</span>
+      <div class="copyright-flex">
+        <span>Copyright Secret Agent Supply Inc.</span>
+      </div>
     </div>
 
   </body>
